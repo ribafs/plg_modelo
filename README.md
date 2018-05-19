@@ -1,5 +1,8 @@
+# Plugin tipo content para o Jooomla 3
+
 Este simples plugin tem como objetivo inserir os créditos em todos os artigos logo abaixo do título dos mesmos.
 Insere mesmo os criados antes.
+
 Chega a ser redundante, visto que o Joomla já faz isto, mas vale como exercício.
 
 Como este plugin adiciona o crédito em todos os artigos indiscriminadmente, vou procurar evitar algum artigo passando como parâmetro o id do artigo recebido pela função onContentAfterTitle().
@@ -45,4 +48,6 @@ http://localhost/joomlasem/index.php?option=com_content&view=article&id=2
 Não mostrará o crédito. Mas para os demais artigos mostrará, como por exemplo:
 http://localhost/joomlasem/index.php?option=com_content&view=article&id=1
 
+## Licença
 
+GPL 3
