@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content" method="upgrade">
+        <name>plg_content_modelo</name>
+        <author>Ribamar FS</author>
+        <creationDate>13 de outubro de 2017</creationDate>
+        <copyright>Ribamar FS</copyright>
+        <license>GNU General Public License</license>
+        <authorEmail>ribafs@gmx.com</authorEmail>
+        <authorUrl>http://ribafs.org</authorUrl>
+        <version>1.0</version>
+        <description>Plugin Modelo Simples that prints credit at the footer of every article. Adapted from InMotion Hosting - https://www.inmotionhosting.com/support/edu/joomla-25/create-plugin/hello-world</description>
+        <files>
+                <filename plugin="modelo">modelo.php</filename>
+                <filename>index.html</filename>
+        </files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="artigo_id"
+					type="text"
+					label="Artigo"
+					description="ID do Artigo"
+                    default="3"
+				/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
