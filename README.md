@@ -1,7 +1,4 @@
-## Plugin tipo content para o Jooomla 3
-
-# Dizendo não para o lado negro da força (MS) mudei para o GitLab. Manterei os arquivos aqui em respeito aos usuários e ao antigo GitHub mas estarei atualizando somente no GitLab daqui pra frente.
-https://gitlab.com/ribafs/plg_modelo
+# Plugin tipo content para o Jooomla 3
 
 Este simples plugin tem como objetivo inserir os créditos em todos os artigos logo abaixo do título dos mesmos.
 Insere mesmo os criados antes.
