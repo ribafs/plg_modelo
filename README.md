@@ -8,6 +8,7 @@ Chega a ser redundante, visto que o Joomla já faz isto, mas vale como exercíci
 Como este plugin adiciona o crédito em todos os artigos indiscriminadmente, vou procurar evitar algum artigo passando como parâmetro o id do artigo recebido pela função onContentAfterTitle().
 
 O XML teve o acréscimo de um campo de form:
+```xmml
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
@@ -21,9 +22,10 @@ O XML teve o acréscimo de um campo de form:
             </fieldset>
         </fields>
     </config>
-
+```
 
 Então seu código php:
+```php
 <?php
 
 // no direct access
@@ -41,7 +43,7 @@ class plgContentCredit extends JPlugin{
 }
 
 ?>
-
+```
 Assim experimente acessar:
 http://localhost/joomlasem/index.php?option=com_content&view=article&id=2
 
